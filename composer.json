@@ -1,6 +1,6 @@
 {
     "name": "qbus/contao-inherit-fallback-articles",
-    "description": "Inherit Fallback Articles Extension for Contao",
+    "description": "Inherit articles when a page has no articles for a particular layout section.",
     "type": "contao-module",
     "license": "LGPL-3.0+",
     "authors": [
