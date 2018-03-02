@@ -35,7 +35,7 @@ class GetFallbackArticles
 
 		$strCompiledSection = '';
 		while ($objArticleCollection->next()) {
-			$strCompiledSection .= \Controller::getArticle($objArticleCollection->current(), false, true, $strSection);
+			$strCompiledSection .= \Controller::getArticle($objArticleCollection->current(), false, false, $strSection);
 		}
 
 		return $strCompiledSection;
